@@ -1,2 +1,5 @@
 print('hello')
 print('world')
+print('hello is my first program in python')
+print('Today i am  gonna start to learn python from scratch')
+print('so tata see you in the next program😀')
