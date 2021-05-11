@@ -32,6 +32,55 @@ print(type(x))
 
 #we also get for others 
 
+#Varibles name 
+"""varible name should start with the letter or underscore 
+     can not start with the number 
+   python is case sensetive ...age or Age are 2 diff variables
+"""
+myNameVariable="manish saini"   #camle case variable
+print(myNameVariable)
+my_name_variable="noopur garg"   #snake case variable
+print(my_name_variable)
+MyNameVariable="waris ali"   #pascal case variable
+print(MyNameVariable)
+
+
+#many variablrie to multiple variable
+#varible must match to the no of values
+x,y,z="manish","noopur","waris"
+print(x)
+print(y)
+print(z)
+
+#unpack Collection
+
+name=["manish","noopur","waris"]
+x,y,z=name
+print(x)
+print(y)
+print(z)
+
+print(x+y)
+print(x+y+z)
+a=9
+#print(z+a)    #give the error
+
+
+#gloable variable  is the variable that declare the outside the function
+x="gloable  manish"
+def myName():
+    
+    print(x)
+myName()    
+
+
+x="gloable manish"
+def myName():
+    x="local manish"
+    print(x)
+myName()
+
+
 #tata see you in the next program
 
 
