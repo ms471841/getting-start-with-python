@@ -33,6 +33,20 @@ z=str(4)
 print(x,y,z)
 
 
+#python string
+
+#strings are surrounded by single or double quotes
+X="hello  this is manish"
+print(X)    
+
+#multilines string
+
+
+x="""Hello users this is the multiline strings
+and we use triple double quotes for it
+or you can use single quotes for it"""
+print(x)
+
 #tata .....see in next program😀
 
 
