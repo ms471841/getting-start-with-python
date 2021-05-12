@@ -33,46 +33,6 @@ z=str(4)
 print(x,y,z)
 
 
-#python string
-
-#strings are surrounded by single or double quotes
-X="hello  this is manish"
-print(X)    
-
-#multilines string
-
-
-x="""Hello users this is the multiline strings
-and we use triple double quotes for it
-or you can use single quotes for it"""
-print(x)
-
-
-#string as array
-
-
-x="Manish"
-print(x[3])  #this will print value at indedx 3 e.i., i
-
-
-#looping through the string
-
-for x in "manish":
-    print(x)
-
-#string length
-#usisng len()  function
-print(len("manish"))
-
-#check substring in a string by using 'in' keyword
-txt="What is the most beautiful thing in this universe , simple Universe themeself"
-print("Universe" in txt)
-
-if "beautiful" in txt:
-    print("yes, 'beautiful' is present")
-
-if "oppourtunity" not in txt:
-    print("Not present")
 
 #tata .....see in next program😀
 
