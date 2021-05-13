@@ -94,4 +94,33 @@ print(txt.endswith("users"))  #returns true if string is ended with specifeid va
 #other methods cover later
 
 
-#tata see in the next program
+#strings concatenation
+
+#let we have 2 strings x and y
+x='hello'
+y='manish'
+print(x+y)
+
+#we also give the space between using ''
+print(x+" "+y)
+
+#Also we know that , we can not concatenate string and number , for example
+age=20
+#print(x+" "+y+" "+age)   #give me error something like this, TypeError: can only concatenate str (not "int") to str
+#don't worry we have a method format(), by this we can concatenate str and int but we have to places the curley bracket where we have to add
+# let do it
+
+y='manish age {}'
+print(x+ y.format(age))
+
+#format method take unlimited methods something like that
+y='manish age {} height {} number {}'
+height=5.9
+number=8
+
+y='manish age {} height {} number {}'
+print(x+y.format(age,height,number)) #we goona do something like that😀
+
+
+
+#tata see in the next program 😁

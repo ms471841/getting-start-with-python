@@ -8,3 +8,4 @@ print(random.randrange(1,20))  #without width
 
 
 print(random.randrange(20,40,5))  #with width
+
