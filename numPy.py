@@ -1,4 +1,5 @@
-#Implementing numpy libary (module)
+#Implementing numpy libary (module) 
+#array
 
 import numpy as np
 from numpy.core.fromnumeric import mean, std, var
